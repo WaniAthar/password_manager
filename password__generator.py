@@ -2,7 +2,6 @@ import random
 import string
 import tkinter as tk
 
-
 def password_generator(length):
     letters = string.ascii_letters
     digits = string.digits
@@ -31,6 +30,9 @@ def save_password(password):
 
         
 window = tk.Tk()
+# icon
+window.iconbitmap('C:\\Users\\athar\\python tutorial by athar\\mini projects\\password_manager\\icon.ico')
+
 window.title('Password Manager')
 window.geometry('300x300')
 # bg color of the window =  white and text color = black
