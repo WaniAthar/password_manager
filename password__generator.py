@@ -24,7 +24,6 @@ def save_password(password):
     website = website_entry.get()
     username = username_entry.get()
     with open('passwords.csv', 'a') as f:    #path to file
-        f.write('Website, Username/Email, Password\n')
         f.write(f'{website}, {username}, {password}\n')
         f.close()
 
