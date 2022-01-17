@@ -23,7 +23,7 @@ def copy_password(a):
 def save_password(password):
     website = website_entry.get()
     username = username_entry.get()
-    with open('C:\\Users\\athar\\python tutorial by athar\\mini projects\\password_manager\\passwords.csv', 'a') as f:    #path to file
+    with open('passwords.csv', 'a') as f:    #path to file
         f.write('Website, Username/Email, Password\n')
         f.write(f'{website}, {username}, {password}\n')
         f.close()
@@ -31,7 +31,7 @@ def save_password(password):
         
 window = tk.Tk()
 # icon
-window.iconbitmap('C:\\Users\\athar\\python tutorial by athar\\mini projects\\password_manager\\icon.ico')
+window.iconbitmap('icon.ico')
 
 window.title('Password Manager')
 window.geometry('300x300')
