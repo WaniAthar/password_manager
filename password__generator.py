@@ -1,3 +1,8 @@
+'''
+Code Author: Athar Mujtaba Wani
+GitHub: @waniathar
+'''
+
 import random
 import string
 import tkinter as tk
